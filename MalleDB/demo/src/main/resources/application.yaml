@@ -1,0 +1,15 @@
+server:
+  port: 8090
+  session:
+    timeout: 36000
+
+spring:
+  servlet:
+    multipart:
+#      enabled: false
+      max-file-size: 5GB
+      max-request-size: 5GB
+  mvc:
+    view:
+      prefix: /resources/templates/
+      suffix: .html
